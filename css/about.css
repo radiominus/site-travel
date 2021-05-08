@@ -1,0 +1,486 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body {
+   overflow-x: hidden;
+   font-family: "Changa";
+}
+
+
+a {
+   text-decoration: none;
+}
+
+img {
+   width: 100%;
+   height: 100%;
+}
+
+
+/* Landing Page */
+.head-top {
+   width: 100%;
+   height: 100vh;
+   color: aliceblue;
+}
+
+
+/* Navbar */
+.nav-bar a {
+   display: flex;
+   align-items: center;
+}
+
+.nav-bar .logo-img {
+   text-decoration: none;
+   color: white;
+   position: absolute;
+   top: .8rem;
+   left: 3rem;
+}
+
+/* Logo */
+.logo-img img {
+   border-radius: 100%;
+   width: 70px;
+   height: 60px;
+   
+}
+
+
+.nav-list {
+   list-style-type: none;
+   display: flex;
+   justify-content: center;
+   font-family: 'Changa';
+   font-size: 20px;
+   padding: 1rem 0 0 0;
+   transition: transform .5s;
+}
+
+
+.nav-link:hover {
+   color: rgb(255, 255, 255);
+   background: rgba(204, 204, 204, 0.74);
+   padding: .7rem;
+   transition: all .3s ease;
+}
+
+.nav-list .nav-1 {
+   color: black;
+}
+
+.nav-bar .toggle-1 {
+   color: black;
+}
+
+.nav-bar .logo-img {
+   font-family: 'Arizonia';
+}
+
+
+
+
+
+
+/* Landing Page */
+/* Landing */
+.row {
+   margin-top: 2rem;
+}
+
+.about {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: auto;
+   padding: 2rem;
+}
+
+.btn-button-1 {
+   display: flex;
+   margin-top: 1rem;
+}
+.btn-join {
+   padding: 9px 30px;
+   background-color: rgb(230, 230, 230);
+   outline: none;
+   border: none;
+   border-radius: 0;
+}
+
+.btn-book-now {
+   color: rgb(255, 255, 255);
+   padding: 9px 30px;
+   background-color: rgba(46, 46, 46, 0.897);
+   outline: none;
+   border: none;
+   border-radius: 0;
+   margin: 0 20px;
+}
+
+
+/* Navbar */
+.nav-bar .logo-img {
+   text-decoration: none;
+   color: rgb(0, 0, 0);
+   position: absolute;
+   top: .8rem;
+   left: 3rem;
+}
+
+
+/* Logo */
+.logo-img img {
+   border-radius: 100%;
+   width: 70px;
+   height: 60px;
+   
+}
+
+.background-1{
+   background-image: url('../background/photo1.jpeg');
+   width: 100%;
+   height: 100%;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+
+.nav-list {
+   list-style-type: none;
+   display: flex;
+   justify-content: center;
+   font-family: 'Changa';
+   font-size: 20px;
+   padding: 1rem 0 0 0;
+   transition: transform .5s;
+}
+
+.nav-link {
+   color: white;
+   text-shadow: 0px 0px 16px rgba(255, 255, 255, 0.493);
+}
+
+.nav-link:hover {
+   color: rgb(255, 255, 255);
+   background: rgba(0, 0, 0, 0.74);
+   padding: .7rem;
+   transition: all .3s ease;
+}
+
+.nav-bar .logo-img {
+   font-family: 'Arizonia';
+}
+
+.over-list ul li {
+   list-style-type: none;
+   font-size: 1.1rem;
+   padding: .4rem ;
+   font-weight: 500;
+}
+
+
+
+
+
+/* BG BRAND */
+.bg-fee {
+   display: flex; 
+   justify-content: center; 
+   align-items: center;
+}
+
+.bg-op {
+   background: rgba(194, 194, 194, 0.24);
+   padding: 2rem ;
+   margin: 0 0px;
+}
+
+.bg-op {
+   width: 160px;
+}
+
+.bg-op:hover {
+   background-color: rgba(255, 255, 255, 0.301);
+   cursor: pointer;
+}
+
+
+
+
+/* Footer */
+
+.footer-bottom {
+   width: 100%; 
+   background-color: rgba(226, 226, 226, 0.904); 
+   padding-top: 3rem;
+}
+
+.footer-line {
+   justify-content: center; 
+   align-items: center; 
+   text-align: center;
+}
+
+.footer-line a {
+   font-size: 3rem;
+}
+
+.insta {
+   display: flex; 
+   justify-content: center;
+   margin: -10px;
+}
+
+.insta img {
+   width: 100%;
+   height: auto;
+   margin: 10px;
+}
+
+
+/* To Top */
+
+.back-to-top {
+   position: fixed; 
+   bottom: 20px; 
+   right: 20px;
+   z-index: 100;
+}
+
+.back-to-top a {
+   color: white;
+   background-color: teal; 
+   padding: 10px;
+   font-size: 2.8rem;
+}
+
+/* Subscribe input and bottom */
+.ctr .rowing{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.text-dot {
+   width: 400px; 
+   padding:.5rem; 
+   border: 1px solid rgb(0, 0, 0);
+   background: transparent; 
+   color: rgb(255, 255, 255); 
+   border-radius: 0;
+}
+
+.btn-submit .btn-subs {
+   background: rgb(0, 0, 0); 
+   padding: .5rem 1.3rem; 
+   color: rgb(255, 255, 255); 
+   border: none; 
+   border-radius: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+
+@media screen and (min-width: 991px) {
+   /* Nav */
+   .fa-times {
+      display: none;
+   }
+
+   .fa-bars {
+      display: none;
+   }
+
+   .nav-list {
+      margin-left: 27rem;
+   }
+
+}
+
+@media screen and (max-width: 991px) {
+
+   /* Nav */
+   .nav-list {
+      list-style-type: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      z-index: 9;
+      transition: transform .5s;
+   }
+
+   .nav-bar {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgb(255, 255, 255);
+      width: 100%;
+      position: fixed;
+      top: 0;
+      z-index: 100;
+      height: 8vh;
+   }
+   
+   .nav-bar .logo-img {
+      left: 1rem;
+      top: 5px;
+      position: fixed;
+      z-index: 9;
+      color: black;
+   }
+
+   .logo-img img {
+      border-radius: 100%;
+      width: 50px;
+      height: 40px;
+      
+   }
+
+   .menu-toggle {
+      color: rgb(0, 0, 0);
+      font-size: 1.3rem;
+      position: fixed;
+      top: 4%;
+      transform: translateY(-50%);
+      right: 2.5rem;
+      cursor: pointer;
+      z-index: 1;
+   }
+   
+   .fa-times {
+      display: none;
+   }
+   
+   .nav-list {
+      list-style-type: none;
+      position: fixed;
+      top: -2px;
+      left: 0;
+      width: 60%;
+      height: 100%;
+      background-color: rgb(255, 255, 255);
+      display: flex;
+      align-items: center;
+      z-index: 2;
+      transform: translateX(-100%);
+      transition: transform .5s;
+   }
+   
+   .nav-link {
+      color: rgb(0, 0, 0);
+   }
+   
+   .nav-bar::before {
+      content: "";
+      position: fixed;
+      top: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(255, 255, 240, 0.863);
+      transform: scale(0);
+      transition: opacity .5s;
+   }
+   
+   .open .fa-times {
+      display: block;
+   }
+   
+   .open .fa-bars {
+      display: none;
+   }
+   
+   .open .nav-list {
+      transform: translateX(0);
+   }
+   
+   .open .nav::before {
+      opacity: 1;
+      transform: scale(1);
+   }
+
+   /* Subscribe input and bottom */
+   .ctr .rowing{
+      display: block;
+      justify-content: center;
+      align-items: center;
+   }
+   .text-dot {
+   width: 100%;
+   margin-bottom: -2.5rem;
+   }
+
+   .btn-submit .btn-subs {
+      width: 100%;
+   }
+}

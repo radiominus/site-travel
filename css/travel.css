@@ -1,0 +1,608 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body {
+   overflow-x: hidden;
+}
+
+
+a {
+   text-decoration: none;
+}
+
+img {
+   width: 100%;
+   height: 100%;
+}
+
+/* Landing Page */
+.head-top {
+   width: 100%;
+   height: 100vh;
+   color: aliceblue;
+}
+
+
+/* Navbar */
+.nav-bar a {
+   display: flex;
+   align-items: center;
+}
+
+.nav-bar .logo-img {
+   text-decoration: none;
+   color: white;
+   position: absolute;
+   top: .8rem;
+   left: 3rem;
+}
+
+
+/* Logo */
+.logo-img img {
+   border-radius: 100%;
+   width: 70px;
+   height: 60px;
+   
+}
+
+.background-1{
+   background-image: url('../background/bali.jpg');
+   width: 100%;
+   height: 100%;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+
+.nav-list {
+   list-style-type: none;
+   display: flex;
+   justify-content: center;
+   font-family: 'Changa';
+   font-size: 20px;
+   padding: 1rem 0 0 0;
+   transition: transform .5s;
+}
+
+.nav-link {
+   color: white;
+   text-shadow: 0px 0px 16px rgba(255, 255, 255, 0.493);
+}
+
+.nav-link:hover {
+   color: rgb(255, 255, 255);
+   background: rgba(0, 0, 0, 0.74);
+   padding: .7rem;
+   transition: all .3s ease;
+}
+
+.nav-bar .logo-img {
+   font-family: 'Arizonia';
+}
+
+/* Sub Headline */
+.container-1 {
+   text-align: center;
+   margin-top: 8rem;
+   font-family: 'Changa';
+}
+
+.sub-headline {
+   padding: 3rem;
+}
+
+.sub-headline h1 {
+   font-size: 3rem;
+}
+
+.sub-headline h3 {
+   font-size: 2.2rem;
+}
+
+.sub-headline h5 {
+   font-size: 1.3rem;
+}
+
+.btn-secondaries {
+   background-color: rgb(255, 255, 255);
+   color: black;
+   border: none;
+   padding: 12px 62px;
+   transition: all .5s;
+   margin: 0 10px;
+   text-transform: uppercase;
+}
+
+.btn-outlines {
+   color: rgb(255, 255, 255);
+   background-color: rgb(9, 146, 146);
+   padding: 12px 62px;
+   text-transform: uppercase;
+}
+
+/* Carousel Over */
+#meSelf {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.mySelf {
+   display: flex; 
+   justify-content: center; 
+   align-items: center; 
+   margin-left: 4rem;
+}
+
+.img-into:hover {
+   box-shadow: 2px 2px 50px black;
+   transition: all .3s ease-out;
+}
+
+.carousel-bg .text-over {
+   position: relative;
+   bottom: -10px;
+}
+
+.text-over h5 {
+   position: absolute; 
+   bottom: 0; 
+   left: 0;
+   background: rgba(230, 230, 230, 0.685); 
+   width: 100%; 
+   height: 7vh;
+   display: flex; 
+   justify-content: center; 
+   align-items: center;
+   padding-bottom: 20px;
+}
+
+.text-over h6 {
+   position: absolute; 
+   bottom: 0; 
+   left: 3px;
+   width: 100%;
+   font-size: .8rem; 
+   padding: 5px;
+}
+
+
+.button-over > button {
+   background: orange; 
+   border-radius: 0;
+}
+
+/* Pick */
+
+.card-pick .button-group button {
+   background: transparent;
+   border: none;
+   text-transform: uppercase;
+   cursor: pointer;
+}
+
+.card-pick .button-group button + button {
+margin: 2em;
+
+}
+
+.card-pick .img a:hover img {
+filter: brightness(1.1)drop-shadow(1px 8px 30px #b1afaf);
+}
+
+
+/* Why You Should Choose US */
+.head-us {
+   background: rgba(255, 230, 2, 0.705);
+}
+
+.why-us h6 {
+   width: 80%;
+   margin: auto;
+}
+
+.head-us:hover {
+   filter: brightness(1.1)drop-shadow(1px 8px 30px #b1afaf);
+}
+
+.list-group {
+   list-style-type: none;
+   padding: 7px 20px; 
+   font-weight: 600;
+}
+
+.head-us .card-body {
+   display: flex; 
+   justify-content: space-around;
+}
+
+/* Button Group */
+.btn-group button {
+   margin: 10px;
+   border-radius: 0;
+   border: none;
+   background-color: rgb(219, 219, 219);
+}
+
+.element-item {
+   display: none; /* Hide columns by default */
+}
+
+.show {
+   display: block;
+}
+
+/* Background Trip */
+.background-trip {
+   background-image: url('../background/bali.jpg');
+   width: 100%;
+   height: 50vh;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+
+/* Trip choices */
+.background-trip .img-overlay {
+   display: flex; 
+   justify-content: center; 
+   align-items: center; 
+   height: 50vh; 
+   width: 100%; 
+}
+
+.trip-text h6 {
+   width: 80%;
+   margin: auto;
+}
+
+.background-trip .img-center > img {
+   width: 150px; 
+   height: 150px; 
+   border-radius: 50%; 
+   margin: auto;
+}
+
+.card-body a {
+   color: #000;
+   font-weight: 600;
+}
+
+/* Review */
+
+.review .img-rev {
+   position: relative;
+}
+
+.img-rev .text-overslap {
+   position: absolute; 
+   left: 0; 
+   bottom: 0; 
+   width: 100%; 
+   height: 15vh; 
+   background-color: rgba(0, 0, 0, 0.644); 
+}
+
+.text-overslap h5 {
+   display: flex; 
+   justify-content: center;
+}
+
+.img-bord {
+   display: flex; 
+   justify-content: center; 
+   align-items: center;
+}
+
+.img-bord img {
+   width: 150px;
+   height: 150px; 
+   border-radius: 50%; 
+   margin-left: 50px;
+}
+
+
+/* Background Map */
+.background-map {
+   background-image: url('../background/bali.jpg');
+   width: 100%;
+   height: 50vh;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+
+
+/* Footer */
+
+.footer-bottom {
+   width: 100%; 
+   background-color: rgba(226, 226, 226, 0.904); 
+   padding-top: 3rem;
+}
+
+.footer-line {
+   justify-content: center; 
+   align-items: center; 
+   text-align: center;
+}
+
+.footer-line a {
+   font-size: 3rem;
+}
+
+.insta {
+   display: flex; 
+   justify-content: center;
+   margin: -10px;
+}
+
+.insta img {
+   width: 100%;
+   height: auto;
+   margin: 10px;
+}
+
+
+/* To Top */
+
+.back-to-top {
+   position: fixed; 
+   bottom: 20px; 
+   right: 20px;
+   z-index: 100;
+}
+
+.back-to-top a {
+   color: white;
+   background-color: teal; 
+   padding: 10px;
+   font-size: 2.8rem;
+}
+
+/* Subscribe input and bottom */
+.ctr .rowing{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.text-dot {
+   width: 400px; 
+   padding:.5rem; 
+   border: 1px solid rgb(0, 0, 0);
+   background: transparent; 
+   color: rgb(255, 255, 255); 
+   border-radius: 0;
+}
+
+.btn-submit .btn-subs {
+   background: rgb(0, 0, 0); 
+   padding: .5rem 1.3rem; 
+   color: rgb(255, 255, 255); 
+   border: none; 
+   border-radius: 0;
+}
+
+/* CLone Carousel */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+
+@media screen and (min-width: 991px) {
+   /* Nav */
+   .fa-times {
+      display: none;
+   }
+
+   .fa-bars {
+      display: none;
+   }
+
+   .nav-list {
+      margin-left: 27rem;
+   }
+
+}
+
+@media screen and (max-width: 991px) {
+
+   /* Nav */
+   .nav-list {
+      list-style-type: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      z-index: 9;
+      transition: transform .5s;
+   }
+
+   .nav-bar {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgb(255, 255, 255);
+      width: 100%;
+      position: fixed;
+      top: 0;
+      z-index: 100;
+      height: 8vh;
+   }
+   
+   .nav-bar .logo-img {
+      left: 1rem;
+      top: 5px;
+      position: fixed;
+      z-index: 9;
+      color: black;
+   }
+
+   .logo-img img {
+      border-radius: 100%;
+      width: 50px;
+      height: 40px;
+      
+   }
+
+   .menu-toggle {
+      color: rgb(0, 0, 0);
+      font-size: 1.3rem;
+      position: fixed;
+      top: 4%;
+      transform: translateY(-50%);
+      right: 2.5rem;
+      cursor: pointer;
+      z-index: 1;
+   }
+   
+   .fa-times {
+      display: none;
+   }
+   
+   .nav-list {
+      list-style-type: none;
+      position: fixed;
+      top: -2px;
+      left: 0;
+      width: 60%;
+      height: 100%;
+      background-color: rgb(255, 255, 255);
+      display: flex;
+      align-items: center;
+      z-index: 2;
+      transform: translateX(-100%);
+      transition: transform .5s;
+   }
+   
+   .nav-link {
+      color: rgb(0, 0, 0);
+   }
+   
+   .nav-bar::before {
+      content: "";
+      position: fixed;
+      top: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(255, 255, 240, 0.863);
+      transform: scale(0);
+      transition: opacity .5s;
+   }
+   
+   .open .fa-times {
+      display: block;
+   }
+   
+   .open .fa-bars {
+      display: none;
+   }
+   
+   .open .nav-list {
+      transform: translateX(0);
+   }
+   
+   .open .nav::before {
+      opacity: 1;
+      transform: scale(1);
+   }
+
+   /* Landing */
+   .container-1 {
+      margin-top: 0rem;
+      padding-top: 6rem;
+   }
+
+   .sub-headline h1 {
+      font-size: 32px;
+   }
+   .sub-headline h3 {
+      font-size: 27px;
+   }
+   .sub-headline h5 {
+      font-size: 16px;
+   }
+
+   /* Tex over */
+   .text-over h5 {
+      font-size: .8rem;
+   }
+   .text-over h6 {
+      font-size: .6rem; 
+   }
+
+   .button-over button {
+      font-size: .6rem;
+   }
+
+
+   /* Btn Group */
+   .btn-group {
+      display: block;
+      justify-content: center;
+      align-items: center;
+   }
+
+   /* Img Review */
+   .img-bord img {
+      width: 100px;
+      height: 100px;
+   }
+
+   .img-bord p {
+      font-size: .7rem;
+   }
+
+
+
+   /* Button */
+   .btn-secondaries {
+      background-color: rgb(255, 255, 255);
+      color: black;
+      padding: 5px 62px;
+      transition: all .5s;
+      margin: 10px;
+      text-transform: uppercase;
+   }
+
+   .btn-outlines {
+      color: rgb(255, 255, 255);
+      background-color: rgb(9, 146, 146);
+      padding: 5px 62px;
+      text-transform: uppercase;
+   }
+
+
+   /* Input Bottom */
+      /* Subscribe input and bottom */
+      .ctr .rowing{
+         display: block;
+         justify-content: center;
+         align-items: center;
+      }
+      .text-dot {
+      width: 100%;
+      margin-bottom: -2.5rem;
+      }
+   
+      .btn-submit .btn-subs {
+         width: 100%;
+      }
+}

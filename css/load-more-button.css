@@ -1,0 +1,21 @@
+
+#loadMore {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+    width: 100%;
+}
+#loadMore a {
+    background: rgba(0, 0, 0, 0.904);
+    color: rgb(224, 224, 224);
+    display: block;
+    padding: 10px 30px;
+    transition: all 0.25s ease-out;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Changa';
+    margin: 0 .8rem;
+}
+#loadMore a:hover {
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+}
