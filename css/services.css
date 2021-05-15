@@ -1,7 +1,3 @@
-@import url('../font/Arizonia-Regular.ttf');
-@import url('../font/Changa-Regular.ttf');
-
-
 * {
    margin: 0;
    padding: 0;
@@ -118,7 +114,7 @@ img {
 
 /* Background */
 .background-text {
-   background-image: url('../background/photo1.jpeg');
+   background-image: url('../background/beach-bac01.jpg');
    width: 100%;
    height: 18vh;
    background-repeat: no-repeat;
@@ -263,7 +259,7 @@ img {
 
 /* Price Bottom */
 .price-background {
-   background-image: url('../background/photo1.jpeg');
+   background-image: url('../background/beach-bac01.jpg');
    width: 100%;
    height: 40vh;
    background-repeat: no-repeat;
